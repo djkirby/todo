@@ -1,40 +1,22 @@
-# Welcome to Remix!
+# Todo App
 
-- 📖 [Remix docs](https://remix.run/docs)
+Built with [Remix](https://remix.run/)
 
 ## Development
 
-Run the dev server:
+Install dependencies and run the dev server:
 
 ```shellscript
-npm run dev
+npm i
+npm run start
 ```
 
-## Deployment
+See terminal output for the URL to open in your browser.
 
-First, build your app for production:
+## Tests
 
-```sh
-npm run build
+Run the tests:
+
+```shellscript
+npm run test
 ```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
